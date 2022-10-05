@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/** INDEX */
+
+header h1{
+    transition: 0.5s;
+    /* border: 6px solid black; */
+    width: 100%;
+    text-align: center;
+    color: rgb(37, 156, 37);
+    font-size: 80px;
+    font-style:italic;
+    font-weight: 900;
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(78, 78, 78);
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav{
+    width: 100%;
+}
+
+header span{
+    background: rgb(78, 78, 78);
+    background: linear-gradient(90deg, rgb(78, 78, 78) 0%, rgba(44,255,0,1) 67%, rgb(78, 78, 78) 100%);
+}
+
+.barraDe{
+    display: flex;
+    justify-content: space-between;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    list-style:none;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-weight:900;
+}
+
+.barraDe li{
+    transition: 0.3s;
+}
+
+
+.barraDe li:hover{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(44,255,0,1) 67%, rgba(0,0,0,1) 100%);
+    transform: scale(1.1);
+    border-radius: 15px;
+    z-index: auto;
+}
+
+header nav{
+    text-decoration: none;
+    width: 100%;
+}
+
+header span{
+    color: rgb(255, 255, 255);
+    font-size: 95px;
+}
+
+
+
+
+
+/*-------MAIN------*/
+
+.categorias{
+    height: 750px;
+    display: flex;
+    text-align: center;
+    }
+
+.hero{
+    border: 5px solid rgb(68, 67, 67);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around ;
+    /**background-image: url(../img/fondo\ gamer\ -\ Buscar\ con\ Google.html);*/
+    color: white;
+    background-color: grey;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+}
+
+.imagen__recientes{
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px black;
+}
+
+.imagen__aventura{
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px black;
+}
+.imagen__accion{
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px black;
+}
+
+
+
+
+    .hero2{
+    color: white;
+    background-color:rgb(11, 2, 66);
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+
+
+    }
+
+    .hero2__title{
+        text-align: center;
+    }
+
+
+    .ytvideo__box{
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(70, 66, 66);
+    }
+
+    .ytvideo{
+        background-color: black;
+        padding: 20px;
+        box-shadow: 0px 40px 40px black;
+    }
+
+
+    .ubicacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: grey;
+        color: white;
+        background-color: grey;
+        width: 100%;
+        font-family: 'Kanit', sans-serif;
+        font-size: 35px;
+        padding-bottom: 50px;
+
+    }
+
+    .ubicacion iframe{
+        margin: 20px;
+        transition: 0.6s;
+    }
+
+    .ubicacion iframe:hover{
+        transform: scale(1.1);
+    }
+    .ubicacion__h4{
+        padding-top: 35px;
+    }
+
+    .maps{
+        background-color: black;
+        padding: 10px;
+        box-shadow: 0px 20px 20px black;
+    }
+/*--------FOTEER-------*/
+
+
+.rrss{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.seccionrrss{display: flex;
+    justify-content: center;
+    border: 6px solid black;
+    background-color: grey;
+
+
+}
+
+.titulorrss{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.wicon{
+    z-index: 1;
+    position: fixed;
+    right: 0%;
+    bottom: 1%;
+    transition: 0.5s;
+}
+
+.wicon:hover{
+    transform: scale(1.3);
+}
+
+
+/** DOCUMENTO CONTACTOS */
+
+.formularioContacto{
+    grid-area: formulario;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+/* DOCUMENTO PRODUCTOS */
+
+.grid-contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    grid-template-rows: 2fr 0.05fr;
+    grid-template-areas: 
+    "main main aside"
+    "footer footer footer"
+    ;
+}
+
+.productos-main{
+    grid-area: main;
+}
+
+.productos-aside{
+    grid-area: aside;
+
+}
+
+.productos-aside img{
+    width: 100%;
+    height: 50%;
+    margin: 0%;
+    padding: 0%;
+    transition: 1.5s;
+
+}
+
+.productos-aside img:hover{
+    transform: scale(1.1);
+}
+
+.productos-footer{
+    grid-area: footer;
+}
