@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Jarod Calderon</h1>
 <h3 align="center">A passionate developer from Venezuela</h3>
 
-- 🔭 I’m currently working on **Gamers's Land**
+- 🔭 I’m currently working on **GochoMusic Venezuela**
 
 - 🌱 I’m currently learning **Html, CSS, JavaScript**
 
